@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Etiquetas escenciales en HTML
+    </title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body class="body">
+    <header class="encabezado-principal">
+        <div class="bloque-texto">
+            <h1>
+                Explicando las etiquetas HTML
+            </h1>
+        </div>
+        <div class="bloque-imagen"></div>
+    </header>
+    <h2 class="contenidoSubtitulos">
+        Bienvenido a HTML
+    </h2>
+    <p class="contenido">
+        En esta página vas a encontrar las etiquetas más esenciales de HTML explicadas de forma clara y sencilla. La
+        idea es que puedas reconocerlas, entender para qué sirven, conocer sus atributos principales y ver ejemplos para
+        que sepas cómo usarlas. Todo pensado para que al terminar, tengas la base necesaria para empezar a armar tus
+        propias páginas sin perderte entre tanta etiqueta.
+    </p>
+    <h2 class="contenidoSubtitulos">
+        Hablemos de &lt;!DOCTYPE html&gt;:
+    </h2>
+    <p class="contenido">
+        No es una etiqueta HTML como <strong>&lt;p&gt;</strong> o <strong>&lt;h1&gt;</strong> sino una
+        <strong>declaración</strong> que va en la primera linea de cualquier documento HTML.
+        Su función es decirle al navegador que el documento está en HTML5 con el fin de tome las reglas modernas del
+        estándar.<br>Si esta no se coloca el navegador entra en <strong>modo quirks</strong> que intenta preestablecer
+        el diseño antiguo de las páginas pero esto puede afectar al diseño y hacer que algunos estilos no se apliquen.
+    </p>
+    <h2 class="contenidoSubtitulos">
+        Etiqueta HTML
+    </h2>
+    <p class="contenido">
+        La etiqueta <strong>&lt;html&gt;</strong> es el elemento raíz de cualquier documento HTML. Contiene todo el
+        contenido de la página, incluyendo el encabezado <strong>&lt;head&gt;</strong> y el cuerpo
+        <strong>&lt;body&gt;</strong>. Sirve para indicar al navegador que todo lo que está dentro es código HTML.
+    </p>
+    <section class="bloque-dividido">
+        <div class="bloque-texto2">
+            <h2 class="contenidoSubtitulos">
+                Etiqueta HEAD
+            </h2>
+            <p>
+                Hablemos de la <strong>&lt;head&gt;</strong> este es la cabecera del documento HTML, pero no es el
+                encabezado visual que se ve en la pagina ese se modifica a travez de <strong>&lt;header&gt;</strong>. Su
+                función es contener <strong>metadatos</strong> que es información sobre la página que no se muestra a
+                los usuarios, pero que los navegadores usan para mostrar el sitio correctamente.<br>Puede usar atributos
+                globales como id, class, style, lang, etc.
+            </p>
+        </div>
+        <div class="imagen-html"></div>
+    </section>
+    <h2 class="contenidoSubtitulos">
+        Etiqueta BODY
+    </h2>
+    <p class="contenido">
+        Es aquella etiqueta que define el cuerpo del documento HTML. Contiene todo el contenido visible: texto,
+        imágenes, videos, enlaces, listas, tablas, formularios, etc.<br>Puede usar atributos globales como id, class,
+        style, lang, etc.
+    </p>
+    <h2 class="contenidoSubtitulos">
+        Etiquetas H1 hasta H6
+    </h2>
+    <p class="contenido">
+        Las etiquetas <strong>&lt;h1&gt;</strong> a <strong>&lt;h6&gt;</strong> definen niveles de encabezado, del más
+        importante (<strong>&lt;h1&gt;</strong>) al menos (<strong>&lt;h6&gt;</strong>). Se usan para organizar el
+        contenido y crear una jerarquía visual y semántica.<br>Tienen atributos como id, class, style, lang, title, etc.
+    </p>
+    <h2 class="contenidoEjemplos">
+        Ejemplo:
+    </h2>
+    <h1 class="codigo">&lt;h1&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h1&gt;</h1>
+    <h2 class="codigo">&lt;h2&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h2&gt;</h2>
+    <h3 class="codigo">&lt;h3&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h3&gt;</h3>
+    <h4 class="codigo">&lt;h4&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h4&gt;</h4>
+    <h5 class="codigo">&lt;h5&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h5&gt;</h5>
+    <h6 class="codigo">&lt;h6&gt;HTML es el lenguaje que estructura las páginas web...&lt;/h6&gt;</h6>
+
+
+    <section class="bloque-dividido">
+        <div class="bloque-texto2">
+            <h2 class="contenidoSubtitulos">
+                Etiqueta &lt;p&gt;
+            </h2>
+            <p>
+                La etiqueta &lt;p&gt; llamada asi por paragraph. Se usa para agrupar y separar bloques de texto en una
+                página web como párrafos. De igual manera no tiene atributos propios pero usa los globales.
+            </p>
+            <h2 class="contenidoEjemplos">
+                Ejemplo:
+            </h2>
+            <p class="codigo">&lt;p&gt;HTML es el lenguaje que estructura las páginas web...&lt;p1&gt;</p>
+        </div>
+        <div class="imagen-parrafo"></div>
+    </section>
+
+    <h2 class="contenidoSubtitulos">
+        Etiqueta &lt;a&gt;
+    </h2>
+    <p class="contenido">
+        Esta etiqueta permite crear enlaces que pueden llevar a otra página web, apuntar un archivo para descargar,
+        saltar a otra parte de la misma página o abrir el correo electrónico del usuario.<br>Cuenta con diversos como
+        <strong>href -></strong> URL de destino, <strong>target -></strong> indica dónde abrir el enlace, <strong>_self
+            -></strong> (por defecto en la misma pestaña), <strong>blank -></strong> (nueva pestaña/ventana),
+        <strong>download -></strong> indica que el enlace descarga un archivo, <strong>rel -></strong> relaciona con el
+        destino.
+    </p>
+    <h2 class="contenidoEjemplos">
+        Ejemplo:
+    </h2>
+    <a href="https://www.utez.edu.mx/" class="contenido">PAGINA DE LA UTEZ</a>
+    <h2 class="contenidoSubtitulos">
+        Etiqueta &lt;img&gt;
+    </h2>
+    <p class="contenido">
+        Esta etiqueta es muy importante pues es la que permite insertar imágenes en el contenido HTML. Es una etiqueta
+        vacía y necesita atributos para funcionar, se usa cuando la imagen forma parte del contenido. Al igual que la
+        etiqueta &lt;a&gt; tiene multiples atributos como: <strong>src -></strong> ruta o URL de imagen, <strong>alt
+            -></strong> texto alternativo que describe la imagen, <strong>width -></strong> ancho en pixeles,
+        <strong>height -></strong> alto en pixeles, <strong>title -></strong> texto que aparece al pasar el cursor.
+    </p>
+    <h2 class="contenidoEjemplos">
+        Ejemplo:
+    </h2>
+    <div class="imagen-centro">
+        <img src="etiqueta-img.jpg" alt="Esto es un texto descriptivo"
+            title="Hola soy Alex Rodríguez y estoy aprendiendo a usar HTML" class="contenedor">
+    </div>
+    <h2 class="contenidoSubtitulos">
+        Etiquetas OL y LI
+    </h2>
+    <p class="contenido">
+        La etiqueta <strong>&lt;ol&gt;</strong> define una <strong>lista ordenada</strong>, donde cada elemento se
+        numera automáticamente.
+        Dentro de ella, la etiqueta <strong>&lt;li&gt;</strong> representa cada <strong>elemento de la lista</strong>.
+        Se usan para mostrar pasos, rankings o cualquier contenido donde el orden sea importante.<br>
+        <strong>&lt;ol&gt;</strong> puede tener atributos como <em>type</em>, <em>start</em> y <em>reversed</em>,
+        mientras que
+        <strong>&lt;li&gt;</strong> puede usar <em>value</em> para definir un número específico, además de atributos
+        globales como
+        <em>id</em>, <em>class</em>, <em>style</em>, <em>lang</em>, <em>title</em>, etc.
+    </p>
+    <h2 class="contenidoEjemplos">
+        Ejemplo:
+    </h2>
+    <p class="codigo">&lt;ol&gt;</p>
+    <p class="codigo">&nbsp;&nbsp;&lt;li&gt;Precalentar el horno a 180°C.&lt;/li&gt;</p>
+    <p class="codigo">&nbsp;&nbsp;&lt;li&gt;Mezclar harina, azúcar y huevos.&lt;/li&gt;</p>
+    <p class="codigo">&nbsp;&nbsp;&lt;li&gt;Hornear durante 30 minutos.&lt;/li&gt;</p>
+    <p class="codigo">&lt;/ol&gt;</p>
+    <h2 class="contenidoSubtitulos">
+    Etiqueta UL
+</h2>
+<p class="contenido">
+    La etiqueta <strong>&lt;ul&gt;</strong> define una <strong>lista no ordenada</strong>, donde cada elemento se 
+    representa con una viñeta o marcador en lugar de un número. 
+    Dentro de ella, la etiqueta <strong>&lt;li&gt;</strong> representa cada <strong>elemento de la lista</strong>. 
+    Se usa cuando el orden de los elementos no es importante.<br>
+    <strong>&lt;ul&gt;</strong> puede usar atributos globales como 
+    <em>id</em>, <em>class</em>, <em>style</em>, <em>lang</em>, <em>title</em>, etc., 
+    mientras que <strong>&lt;li&gt;</strong> también puede usar estos atributos y, en listas ordenadas, 
+    el atributo <em>value</em> para definir un número específico.
+</p>
+<h2 class="contenidoEjemplos">
+    Ejemplo:
+</h2>
+<p class="codigo">&lt;ul&gt;</p>
+<p class="codigo">&nbsp;&nbsp;&lt;li&gt;Manzana&lt;/li&gt;</p>
+<p class="codigo">&nbsp;&nbsp;&lt;li&gt;Pera&lt;/li&gt;</p>
+<p class="codigo">&nbsp;&nbsp;&lt;li&gt;Banana&lt;/li&gt;</p>
+<p class="codigo">&lt;/ul&gt;</p>
+</body>
+
+</html>

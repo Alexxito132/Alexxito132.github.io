@@ -1,0 +1,117 @@
+:root {
+    --color-azul: #98c2df; 
+    --color-carne: #F8FFE5;
+}
+
+.encabezado-principal {
+    display: flex;
+    height: 450px;
+}
+
+.bloque-texto {
+    flex: 1;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: var(--color-azul);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    text-align: center;
+
+}
+
+.bloque-imagen {
+    flex: 1;
+    background-image: url("estructura-paginas-web.png");
+    background-position: center;
+}
+
+.body {
+    margin: 0; 
+    padding: 0;
+    background-color: var(--color-carne)
+}
+
+.contenidoSubtitulos {
+    margin: 70px auto 20px auto; 
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    max-width: 1700px;
+}
+
+
+.contenido {
+    margin: 0 auto 40px auto; 
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    max-width: 1700px;
+}
+
+.bloque-html {
+    display: flex;
+    align-items: center; 
+    gap: 20px;           
+}
+
+.bloque-dividido {
+    display: flex;
+    align-items: center;
+    max-width: 1700px;   /* igual que .contenido */
+    margin: 0 auto 40px auto
+}
+
+.imagen-html {
+    flex: 0.7; 
+    background-image: url("etiqueta-head.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    margin-left: 30px;
+}
+
+.bloque-texto2 {
+    flex: 2;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;   
+    
+   
+}
+
+.codigo{
+    margin: 0 auto 40px auto; 
+    max-width: 1700px;
+    text-align: justify;
+}
+
+.contenidoEjemplos {
+    margin: 70px auto 20px auto; 
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    max-width: 1700px;
+}
+
+.imagen-parrafo {
+    flex: 0.7; 
+    background-image: url("etiqueta-parrafo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.imagen-centro {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+
+
